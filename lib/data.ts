@@ -137,7 +137,7 @@ export const profileSummary = [
 export const workExperience = [
     {
         position: "Cybersecurity Analyst",
-        company: "Network Intelligence", // Updated company
+        company: "@Network Intelligence", // Updated company
         duration: "Sept'24 - Present", // Updated duration
 
         responsibilities: [
@@ -155,7 +155,7 @@ export const workExperience = [
     },
     {
         position: "Cybersecurity Analyst",
-        company: "Indian Cyber Security Solutions", // Unchanged
+        company: "@Indian Cyber Security Solutions", // Unchanged
         duration: "Feb'23 - Sept'24", // Updated duration
 
         responsibilities: [
@@ -173,7 +173,7 @@ export const workExperience = [
     },
     {
         position: "Cybersecurity Intern",
-        company: "Palo Alto Networks Cybersecurity Academy", // Unchanged
+        company: "@Palo Alto Networks Cybersecurity Academy", // Unchanged
         duration: "Mar'22 - May'22", // Unchanged
 
         responsibilities: [
