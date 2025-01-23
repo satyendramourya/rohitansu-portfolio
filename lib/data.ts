@@ -29,13 +29,14 @@ export const commands: Command = [
 export const about = {
     fullName: "ROHITANSU PRADHAN",
     position: "CYBERSECURITY ANALYST",
-    location: "Bangalore",
-    puspose: "Technology and result-oriented professional, specializing in Offensive Security within the Cyber Security domain, with a keen interest in leveraging expertise in Network, Web Application, and Mobile Security to contribute effectively to a dynamic organization.",
-    email: "pradhanrohitansu@gmail.com",
-    emailLink: "mailto:pradhanrohitansu@gmail.com",
-    Linkedin: "Linkedin.RohitansuPradhan",
-    LinkedinLink: "https://www.linkedin.com/in/rohitansupradhan/"
-}
+    location: "Pune", // Updated location
+    purpose: "Technology and result-oriented professional, specializing in Offensive Security within the Cyber Security domain, with a keen interest in leveraging expertise in Network, Web Application, and Mobile Security to contribute effectively to a dynamic organization.", // Unchanged
+    email: "pradhanrohitansu@gmail.com", // Unchanged
+    emailLink: "mailto:pradhanrohitansu@gmail.com", // Unchanged
+    Linkedin: "Linkedin.RohitansuPradhan", // Unchanged
+    LinkedinLink: "https://www.linkedin.com/in/rohitansupradhan/" // Unchanged
+};
+
 
 export const coreCompetencies = [
     "Cyber Security Excellence ",
@@ -54,17 +55,17 @@ export const coreCompetencies = [
 ]
 
 export const certifications = [
-    "Certified Ethical Hacker(V12) - EC Council",
-    "Switching, Routing & Wireless Essentials - CCNA",
+    "Certified Ethical Hacker (V12) - EC Council",
+    "API Penetration Testing – APISEC University", // Added certification
+    "Switching, Routing & Wireless Essentials – CCNA",
+    "Azure Fundamentals (AZ-900) - Microsoft", // Added certification
+    "Practical Mobile Pentest Associate – TCM Security", // Added certification
     "Certified Penetration Tester - Red Team Academy",
-    "CompTIA Security + (SY0 - 701) - Udemy",
-    "CompTIA Pentest + - Udemy",
-    "Cybersecurity Essentials - CCNA",
-    "Cybersecurity Analyst Professional - IBM",
     "Programming Essentials in Python - PCAP",
     "Certified Development Associate - ABAP - SAP",
-    "Core Java - Central Tool Room & Training Center",
-]
+    "Core Java - Central Tool Room & Training Center"
+];
+
 
 export const education = [
     {
@@ -90,37 +91,39 @@ export const education = [
 export const technicalSkills = [
     {
         category: "Web App Penetration Testing",
-        skills: ["Burp Suite Pro", "Owasp Zap", "Acunetix for Assessments"],
+        skills: ["Burp Suite Pro", "Owasp Zap", "Acunetix for Assessments"]
     },
     {
         category: "Network Testing",
-        skills: ["Zenmap", "Nmap", "Metasploit", "Wireshark", "Aircrack-ng"],
+        skills: ["Zenmap", "Nmap", "Metasploit", "Wireshark", "Aircrack-ng"]
     },
     {
         category: "Mobile Security",
-        skills: ["Drozer", "Frida", "Moblexer for Android/iOS"],
+        skills: ["Drozer", "Frida", "Moblexer for Android/iOS"]
     },
     {
         category: "Languages",
-        skills: ["Python", "Java", "C", "HTML", "SQL", "Solidity", "JavaScript"],
+        skills: ["Python", "Java", "C", "HTML", "SQL", "Solidity", "JavaScript"]
     },
     {
         category: "Tools Mastery",
-        skills: ["Nessus", "OpenVas", "VSCode", "Splunk"],
+        skills: ["Nessus", "OpenVas", "VSCode", "Splunk"]
     },
     {
         category: "Standards",
-        skills: ["OWASP Top 10", "SANS Top 25", "NIST"],
-    },
-]
+        skills: ["OWASP Top 10", "SANS Top 25", "NIST"]
+    }
+];
+
 
 export const softSkills = [
     "Attention to Details",
     "Result-oriented",
     "Problem-solving",
     "Analytical Thinking",
-    "Decision-making",
-]
+    "Decision-making"
+];
+
 
 
 export const profileSummary = [
@@ -134,25 +137,44 @@ export const profileSummary = [
 export const workExperience = [
     {
         position: "Cybersecurity Analyst",
-        company: "Indian CyberSecurity Solutions",
-        duration: "June 2021 - Present",
+        company: "Network Intelligence", // Updated company
+        duration: "Sept'24 - Present", // Updated duration
 
         responsibilities: [
-            "Performing network, web application, iOS, and Android penetration testing, identifying and mitigating security vulnerabilities across multiple platforms.",
-            "Conducting vulnerability assessments and penetration testing, delivering comprehensive reports and recommendations to enhance their security posture.",
-            "Leading cybersecurity awareness seminars, educating attendees on best practices and emerging threats to improve overall organizational security.", "Utilizing strong technical skills in Python, networking, and web application security to develop and implement effective security solutions. ", "Implementing security protocols and tools to protect against malware, phishing, and other cyber threats."
+            "Performed comprehensive Vulnerability Assessment and Penetration Testing (VAPT) for networks, web applications, APIs, cloud, and mobile applications.",
+            "Conducted configuration reviews for operating systems, databases, firewalls, routers, switches, and other critical infrastructure components.",
+            "Delivered detailed assessment reports adhering to the NII format and provided timely status updates and final reports to clients.",
+            "Provided training to colleagues on advanced topics like router exploitation and privilege escalation techniques.",
+            "Collaborated with clients such as Capgemini, Kirloskar, SLK Group, and Infinx Health to ensure secure and resilient systems.",
+            "Monitored and kept abreast of emerging IT security news, zero-day exploits, and trends to enhance assessment techniques.",
+            "Authored and contributed to technical content, including blog posts and presentations for internal and external forums."
         ],
         highlight: [
-            "Vulnerability Assessment and Penetration Testing: Successfully conducted vulnerability assessment and penetration testing for over 15 clients, resulting in a 70 % increase in cybersecurity resilience.",
-            "Virtual Machines and Capture The Flag Challenges: Developed Virtual machines and Capture The Flag Challenges, enhancing practical skills and knowledge sharing within the team.",
-            "Mentorship as CEH and CCNA: Mentored aspiring professionals as a Certified Ethical Hacker(CEH) and Cisco Certified Network Associate(CCNA) Mentor, contributing to their professional growth."
+            // No updates required here, you can add them as needed.
         ]
+    },
+    {
+        position: "Cybersecurity Analyst",
+        company: "Indian Cyber Security Solutions", // Unchanged
+        duration: "Feb'23 - Sept'24", // Updated duration
 
+        responsibilities: [
+            "Performing network, web application, and Android penetration testing, identifying and mitigating security vulnerabilities across multiple platforms.",
+            "Conducting vulnerability assessments and penetration testing, delivering comprehensive reports and recommendations to enhance security posture.",
+            "Leading cybersecurity awareness seminars, educating attendees on best practices and emerging threats to improve overall organizational security.",
+            "Utilizing strong technical skills in Python, networking, and web application security to develop and implement effective security solutions.",
+            "Implementing security protocols and tools to protect against malware, phishing, and other cyber threats."
+        ],
+        highlight: [
+            "Vulnerability Assessment and Penetration Testing: Successfully conducted vulnerability assessment and penetration testing for over 15 clients, resulting in a 70% increase in cybersecurity resilience.",
+            "Virtual Machines and Capture The Flag Challenges: Developed Virtual machines and Capture The Flag Challenges, enhancing practical skills and knowledge sharing within the team.",
+            "Mentorship as CEH and CCNA: Mentored aspiring professionals as a Certified Ethical Hacker (CEH) and Cisco Certified Network Associate (CCNA) Mentor, contributing to their professional growth."
+        ]
     },
     {
         position: "Cybersecurity Intern",
-        company: "Palo Alto Networks Cybersecurity Academy",
-        duration: "Mar 2022 - May 2022",
+        company: "Palo Alto Networks Cybersecurity Academy", // Unchanged
+        duration: "Mar'22 - May'22", // Unchanged
 
         responsibilities: [
             "Developed a Decentralized Voting System utilizing Ethereum blockchain and smart contracts, showcasing advanced proficiency in blockchain technology.",
@@ -161,7 +183,8 @@ export const workExperience = [
             "Collaborated with team members to develop and implement security policies and procedures for the academy's network and systems, ensuring a secure and functional project outcome."
         ]
     }
-]
+];
+
 
 
 
