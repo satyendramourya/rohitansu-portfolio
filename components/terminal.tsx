@@ -131,7 +131,7 @@ const Terminal = () => {
 	return (
 		<section
 			// className='p-[1.25rem] pt-[0.75rem] flex flex-col-reverse max-h-screen-2rem '
-			className='flex flex-col-reverse '
+			className='flex flex-col-reverse text-white'
 			data-testid='terminal-wrapper'
 			ref={containerRef}
 		>
